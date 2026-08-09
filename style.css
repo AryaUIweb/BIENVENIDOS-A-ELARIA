@@ -8,6 +8,8 @@ body{
 
     height:100vh;
     margin:0;
+   opacity:0;
+animation: aparecerMapa 2s ease forwards;
 }
 
 .contenedor{
