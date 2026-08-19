@@ -73,6 +73,9 @@ button{
     cursor:pointer;
 
     transition:0.3s;
+   opacity:0;
+animation: aparecerBoton 0.8s ease forwards;
+animation-delay:1.5s;
 }
 
 button:hover{
@@ -80,4 +83,15 @@ button:hover{
     background:#23806d;
 
     transform:scale(1.05);
+}
+@keyframes aparecerBoton{
+    from{
+        opacity:0;
+        transform:translateY(15px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
 }
